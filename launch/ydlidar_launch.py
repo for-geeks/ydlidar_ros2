@@ -39,7 +39,7 @@ def generate_launch_description():
                                 node_executable='ydlidar_node',
                                 node_name='ydlidar_node',
                                 output='screen',
-                                emulate_tty=True,
+                                #emulate_tty=True,
                                 parameters=[parameter_file],
                                 node_namespace='/',
                                 )
